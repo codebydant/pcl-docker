@@ -5,6 +5,7 @@ on:
     tags:
       - "*"
     branches: ["main"]
+    paths-ignore: ["**.md"]
 env:
   IMAGE_NAME: pcl-docker
 
