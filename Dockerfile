@@ -1,2 +1,2 @@
 FROM ubuntu:22.04 AS runtime
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends libpcl-dev
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y vim
